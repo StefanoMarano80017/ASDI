@@ -1,0 +1,94 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1 (win64) Build 3526262 Mon Apr 18 15:48:16 MDT 2022
+| Date         : Fri Dec 30 18:58:23 2022
+| Host         : LaptopHuaweiVito running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Robertson_Board_control_sets_placed.rpt
+| Design       : Robertson_Board
+| Device       : xc7a100t
+--------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    16 |
+|    Minimum number of control sets                        |    16 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    83 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    16 |
+| >= 0 to < 4        |     9 |
+| >= 4 to < 6        |     1 |
+| >= 6 to < 8        |     1 |
+| >= 8 to < 10       |     2 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     1 |
+| >= 16              |     2 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              12 |            9 |
+| No           | No                    | Yes                    |               2 |            2 |
+| No           | Yes                   | No                     |              32 |            9 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              23 |            7 |
+| Yes          | Yes                   | No                     |              32 |           12 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------------------------------------------+---------------------------------+------------------------------------------------------+------------------+----------------+--------------+
+|                    Clock Signal                    |          Enable Signal          |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------------------------------------------+---------------------------------+------------------------------------------------------+------------------+----------------+--------------+
+|  clock_IBUF_BUFG                                   |                                 | Macchina_di_Robertson/UC/FSM_onehot_current_reg[1]_0 |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/e_f                      |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/subt_reg_i_1_n_0         |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/count_enable_reg_i_1_n_0 |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/stop_reg_i_1_n_0         |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/shift_en_reg_i_1_n_0     |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/en_mux_reg_i_2_n_0       |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/load_add_reg_i_1_n_0     |                                 |                                                      |                1 |              1 |         1.00 |
+|  Macchina_di_Robertson/UC/fshift_en_reg_i_1_n_0    |                                 |                                                      |                1 |              1 |         1.00 |
+|  clock_IBUF_BUFG                                   |                                 |                                                      |                1 |              4 |         4.00 |
+|  clock_IBUF_BUFG                                   | Macchina_di_Robertson/UC/E[1]   | pulsante_reset_IBUF                                  |                3 |              7 |         2.33 |
+|  clock_IBUF_BUFG                                   | Macchina_di_Robertson/UC/t5     | Macchina_di_Robertson/UC/FSM_onehot_current_reg[1]_1 |                2 |              8 |         4.00 |
+|  clock_IBUF_BUFG                                   | Macchina_di_Robertson/UC/E[0]   | pulsante_reset_IBUF                                  |                2 |              8 |         4.00 |
+|  clock_IBUF_BUFG                                   | Pul_start/deb.count[31]_i_2_n_0 | Pul_start/deb.count[23]_i_1_n_0                      |                5 |             14 |         2.80 |
+|  clock_IBUF_BUFG                                   | Pul_start/deb.count[31]_i_2_n_0 | Pul_start/deb.count[31]_i_1_n_0                      |                7 |             18 |         2.57 |
+|  clock_IBUF_BUFG                                   |                                 | pulsante_reset_IBUF                                  |               10 |             33 |         3.30 |
++----------------------------------------------------+---------------------------------+------------------------------------------------------+------------------+----------------+--------------+
+
+

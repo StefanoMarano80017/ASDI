@@ -1,0 +1,14 @@
+
+Un sistema è composto da 2 nodi, A e B. A invia a B, mediante 
+protocollo di handshaking, 2 stringhe S1 e S2 e un codice di 2 bit.
+Ricevute le stringhe, se il codice è uguale a 00, B le confronta e 
+fornisce il risultato della comparazione su 2 bit, per indicare se 
+A=B, A>b o A<B. Se invece il codice è 11, B calcola la somma delle 
+stringhe.
+Una volta completata l'operazione, B invia il risultato ad A mediante 
+una linea seriale (unica per entrambe le tipologie di risultato), 
+scandendo l'invio di ciascun bit mediante protocollo di handshaking.
+B deve integrare un sommatore, un comparatore e uno o più contatori 
+come componenti (essi possono essere implementati internamente con 
+approccio comportamentale). A deve includere una ROM, da cui preleva 
+le stringhe e i codici, e uno o più contatori.

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1.2 (64-bit)
+# SW Build 3605665 on Fri Aug  5 22:53:37 MDT 2022
+# IP Build 3603185 on Sat Aug  6 04:07:44 MDT 2022
+# Start of session at: Thu Nov 10 17:05:17 2022
+# Process ID: 8228
+# Current directory: C:/Users/Utente/Desktop/Progetti Vivado/Progetto3_reti sequenziali elementari_Riconoscitore/Punto_3.2/SistemaComplessivo/SistemaComplessivo/Sintesi/synth_1
+# Command line: vivado.exe -log SistemaComplessivo.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source SistemaComplessivo.tcl
+# Log file: C:/Users/Utente/Desktop/Progetti Vivado/Progetto3_reti sequenziali elementari_Riconoscitore/Punto_3.2/SistemaComplessivo/SistemaComplessivo/Sintesi/synth_1/SistemaComplessivo.vds
+# Journal file: C:/Users/Utente/Desktop/Progetti Vivado/Progetto3_reti sequenziali elementari_Riconoscitore/Punto_3.2/SistemaComplessivo/SistemaComplessivo/Sintesi/synth_1\vivado.jou
+# Running On: DESKTOP-UK1IBPM, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16924 MB
+#-----------------------------------------------------------
+source SistemaComplessivo.tcl -notrace

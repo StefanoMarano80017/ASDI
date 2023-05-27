@@ -1,0 +1,18 @@
+Ragazzi questo era il mio: 
+Gentile studente, ecco ?esercizio che ti è stato assegnato per
+l?esame di ASDI:
+Progettare, implementare in VHDL e simulare la seguente architettura.
+Si consideri una unità A contenente un registro a scorrimento
+circolare con scorrimento a destra di M=4 celle
+X[3]X[2]X[1]X[0]
+precaricato con il valore ?1010?, implementato in maniera strutturale.
+Un?unità B, su richiesta dell?utente esterno che fornisce un indice i
+compreso fra 0 e 3 e un segnale di strobe, chiede mediante handshaking
+ad A il contenuto dell?i-esimo bit del suo registro.
+L?unità A,
+ricevuta la richiesta, shifta il proprio registro di i posizioni (una
+posizione alla volta) e fornisce in uscita a B il valore X[0]. Dopo
+aver ricevuto N=3 richieste di questo genere da parte dell?utente,
+?unità B determina quanti valori pari a 1 ha
+ricevuto da A e codifica
+tale valore su 2 linee in uscita.

@@ -1,0 +1,257 @@
+#-----------------------------------------------------------
+# Vivado v2022.1.2 (64-bit)
+# SW Build 3605665 on Fri Aug  5 22:53:37 MDT 2022
+# IP Build 3603185 on Sat Aug  6 04:07:44 MDT 2022
+# Start of session at: Sat Nov  5 12:57:28 2022
+# Process ID: 2216
+# Current directory: C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/Sintesi/synth_1
+# Command line: vivado.exe -log M16_D4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source M16_D4.tcl
+# Log file: C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/Sintesi/synth_1/M16_D4.vds
+# Journal file: C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/Sintesi/synth_1\vivado.jou
+# Running On: DESKTOP-UK1IBPM, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16924 MB
+#-----------------------------------------------------------
+source M16_D4.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1294.633 ; gain = 8.078
+Command: synth_design -top M16_D4 -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9980
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1294.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'M16_D4' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.vhd:14]
+INFO: [Synth 8-3491] module 'mux_16_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:3' bound to instance 'mux_16_0' of component 'mux_16_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.vhd:32]
+INFO: [Synth 8-638] synthesizing module 'mux_16_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:12]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:5' bound to instance 'mux0' of component 'mux_4_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:17]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_2_1.vhd:5' bound to instance 'mux0' of component 'mux_2_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'mux_2_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_2_1.vhd:12]
+INFO: [Synth 8-256] done synthesizing module 'mux_2_1' (0#1) [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_2_1.vhd:12]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_2_1.vhd:5' bound to instance 'mux1' of component 'mux_2_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:36]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_2_1.vhd:5' bound to instance 'mux2' of component 'mux_2_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (0#1) [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:17]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:5' bound to instance 'mux1' of component 'mux_4_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:36]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:5' bound to instance 'mux2' of component 'mux_4_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:45]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:5' bound to instance 'mux3' of component 'mux_4_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:54]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_4_1.vhd:5' bound to instance 'mux4' of component 'mux_4_1' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'mux_16_1' (0#1) [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Mux_16_1/mux_16_1.vhd:12]
+INFO: [Synth 8-3491] module 'demux_1_4' declared at 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Demux_1_4/demux_1_4.vhd:3' bound to instance 'demux_4_0' of component 'demux_1_4' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.vhd:38]
+INFO: [Synth 8-638] synthesizing module 'demux_1_4' [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Demux_1_4/demux_1_4.vhd:11]
+INFO: [Synth 8-226] default block is never used [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Demux_1_4/demux_1_4.vhd:15]
+INFO: [Synth 8-256] done synthesizing module 'demux_1_4' (0#1) [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/sources_1/imports/Componenti/Demux_1_4/demux_1_4.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'M16_D4' (0#1) [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.vhd:14]
+WARNING: [Synth 8-7129] Port Pin[0] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[1] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[2] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[3] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[4] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[5] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[6] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[7] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[8] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[9] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[10] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[11] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[12] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[13] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[14] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[15] in module M16_D4 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1294.633 ; gain = 0.000
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1294.633 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/M16_D4.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/M16_D4_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/M16_D4_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1321.301 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1321.301 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input    4 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 15    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port Pin[0] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[1] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[2] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[3] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[4] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[5] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[6] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[7] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[8] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[9] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[10] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[11] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[12] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[13] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[14] in module M16_D4 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port Pin[15] in module M16_D4 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT6 |     4|
+|2     |IBUF |     6|
+|3     |OBUF |     4|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 17 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:28 . Memory (MB): peak = 1321.301 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1321.301 ; gain = 26.668
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1327.078 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1332.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: a62c9844
+INFO: [Common 17-83] Releasing license: Synthesis
+34 Infos, 33 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1332.699 ; gain = 38.066
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Utente/Desktop/Progetti Vivado/Progetto1_reti combinatorie elementari_MUX6_DEX4/Punto_1.3/Componente_M16_D4/M16_D4/Sintesi/synth_1/M16_D4.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file M16_D4_utilization_synth.rpt -pb M16_D4_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Nov  5 12:58:12 2022...

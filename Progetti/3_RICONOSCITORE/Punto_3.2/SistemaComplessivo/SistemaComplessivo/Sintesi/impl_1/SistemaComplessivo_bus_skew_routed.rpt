@@ -1,0 +1,15 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.1.2 (win64) Build 3605665 Fri Aug  5 22:53:37 MDT 2022
+| Date         : Thu Nov 10 17:08:58 2022
+| Host         : DESKTOP-UK1IBPM running 64-bit major release  (build 9200)
+| Command      : report_bus_skew -warn_on_violation -file SistemaComplessivo_bus_skew_routed.rpt -pb SistemaComplessivo_bus_skew_routed.pb -rpx SistemaComplessivo_bus_skew_routed.rpx
+| Design       : SistemaComplessivo
+| Device       : 7a100t-csg324
+| Speed File   : -1  PRODUCTION 1.23 2018-06-13
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Bus Skew Report
+
+No bus skew constraints
+

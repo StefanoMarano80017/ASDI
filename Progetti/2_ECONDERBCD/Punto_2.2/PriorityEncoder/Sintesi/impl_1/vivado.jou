@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1.2 (64-bit)
+# SW Build 3605665 on Fri Aug  5 22:53:37 MDT 2022
+# IP Build 3603185 on Sat Aug  6 04:07:44 MDT 2022
+# Start of session at: Sat Nov  5 13:36:56 2022
+# Process ID: 8104
+# Current directory: C:/Users/Utente/Desktop/Progetti Vivado/Progetto2_reti combinatorie elementari_ENCODER_BCD/Punto_2.2/PriorityEncoder/Sintesi/impl_1
+# Command line: vivado.exe -log PriorityEncoder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source PriorityEncoder.tcl -notrace
+# Log file: C:/Users/Utente/Desktop/Progetti Vivado/Progetto2_reti combinatorie elementari_ENCODER_BCD/Punto_2.2/PriorityEncoder/Sintesi/impl_1/PriorityEncoder.vdi
+# Journal file: C:/Users/Utente/Desktop/Progetti Vivado/Progetto2_reti combinatorie elementari_ENCODER_BCD/Punto_2.2/PriorityEncoder/Sintesi/impl_1\vivado.jou
+# Running On: DESKTOP-UK1IBPM, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16924 MB
+#-----------------------------------------------------------
+source PriorityEncoder.tcl -notrace

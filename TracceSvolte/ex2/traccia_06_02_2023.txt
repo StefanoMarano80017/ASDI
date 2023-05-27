@@ -1,0 +1,17 @@
+
+Progettare ed implementare in VHDL un sistema composto da 3 unità: A, B e C.
+
+All'interno dell'unità A è presente una ROM di N=8 locazioni di K=7 bit.
+Per ogni locazione:
+- se il bit meno significativo è 1, A invia i restanti K-1 bit al sistema B;
+- se il bit meno significativo è 0, A invia i restanti K-1 bit al sistema C.
+
+Il componente C ha un contatore tramite cui conta il numero di messaggi di K-1 bit ricevuti.
+
+Al termine della trasmissione,
+A invia un segnale di terminazione ad entrambi i sistemi (K-1 bit alti).
+
+Ricevuto tale segnale,
+il sistema C invia a B il numero di messaggi ricevuti dal sistema A.
+
+Tutte le comunicazioni avvengono mediante un protocollo di handshaking completo

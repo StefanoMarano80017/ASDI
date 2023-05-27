@@ -1,0 +1,8 @@
+Gentile studente, ecco l'esercizio che ti è stato assegnato per l'esame di ASDI: Progettare,
+implementare in VHDL e simulare la seguente architettura. Un sistema è composto da 2 nodi, A e B. 
+A possiede una ROM con 8 locazioni di 6 bit ciascuna. All?avvio del sistema A invia a B, mediante protocollo di handshaking, 
+il contenuto della propria ROM, una locazione alla volta. Ricevuta una stringa da A, 
+l?unità B divide la stringa in un operando S1 di 4 bit (i più significativi) 
+e un operando S2 di 2 bit e calcola il valore S1 mod S2 (resto della divisione intera fra S1 e S2) 
+utilizzando una macchina aritmetica implementata in maniera strutturale a partire da un componente sottrattore
+ descritto in maniera behavioral. Il risultato dell?operazione viene salvato in una memoria

@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Dec 30 18:57:20 2022
+# Process ID: 20396
+# Current directory: C:/Users/HUAWEI/Desktop/progetti_tesina_asdi/Progetto11_macchine_aritmetiche/Robertson_Board/Robertson/Robertson_Boartd.runs/impl_1
+# Command line: vivado.exe -log Robertson_Board.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Robertson_Board.tcl -notrace
+# Log file: C:/Users/HUAWEI/Desktop/progetti_tesina_asdi/Progetto11_macchine_aritmetiche/Robertson_Board/Robertson/Robertson_Boartd.runs/impl_1/Robertson_Board.vdi
+# Journal file: C:/Users/HUAWEI/Desktop/progetti_tesina_asdi/Progetto11_macchine_aritmetiche/Robertson_Board/Robertson/Robertson_Boartd.runs/impl_1\vivado.jou
+# Running On: LaptopHuaweiVito, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16969 MB
+#-----------------------------------------------------------
+source Robertson_Board.tcl -notrace
