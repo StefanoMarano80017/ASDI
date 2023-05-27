@@ -1,0 +1,4 @@
+Tutti i mutiplexer sono creati per composizione.
+il mutiplexer 4_1 deriva dalla composizione di due mutiplexer 2_1;
+il mutiplexer 8_1 deriva dalla composizione di due mutiplexer 4_1;
+il mutiplexer 16_1 deriva dalla composizione di quattro mutiplexer 4_1;

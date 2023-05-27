@@ -1,0 +1,1 @@
+tutti i contatori con data 24/10/2022 sono fatti con ffT asincroni
